@@ -1,0 +1,15 @@
+@import "header";
+@import "footer";
+@import "home";
+@import "bio";
+@import "press";
+@import "gallery";
+
+@import "global";
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
+  background-color: $color-bg;
+  margin: 0;
+}

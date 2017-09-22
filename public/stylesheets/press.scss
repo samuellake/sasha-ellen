@@ -1,0 +1,45 @@
+.press {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  max-width: 777px;
+}
+
+.press-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.press-quote-heading {
+  font-family: $font-heading;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-top: 2px solid $color-main;
+  border-bottom: 2px solid $color-main;
+  width: 50%;
+  padding: 2px 0px;
+  margin-bottom: 20px;
+}
+
+.press-quote-text {
+  font-family: $font-heading;
+  font-style: italic;
+  text-align: center;
+}
+
+.press-quote-title {
+  font-family: $font-heading;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.four-stars::after {
+  content: '★★★★';
+  color: $color-main;
+  font-size: 40px;
+}

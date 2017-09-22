@@ -1,0 +1,18 @@
+.bio{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: flex-start;
+  max-width: 960px;
+}
+
+.bio-img{
+  max-width: 450px;
+  height: auto;
+}
+
+.bio-text{
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: $font-heading;
+}
