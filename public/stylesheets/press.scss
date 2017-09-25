@@ -1,3 +1,5 @@
+@import "media";
+
 .press {
   display: flex;
   flex-direction: column;
@@ -36,10 +38,23 @@
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .four-stars::after {
   content: '★★★★';
   color: $color-main;
   font-size: 40px;
+}
+
+@include mobile-only {
+
+  .press{
+    padding: 0 20px;
+  }
+
+  .press-quote-heading{
+    width: 65%;
+  }
+
 }

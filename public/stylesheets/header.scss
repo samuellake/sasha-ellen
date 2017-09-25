@@ -1,4 +1,5 @@
 @import "global";
+@import "media";
 
 .header {
   display: flex;
@@ -71,5 +72,11 @@
   &:hover{
     background-color: white;
     color: #373736;
+  }
+}
+
+@include mobile-only {
+  .header .nav .nav-items{
+    width: 100%;
   }
 }
