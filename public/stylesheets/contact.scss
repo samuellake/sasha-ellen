@@ -3,4 +3,14 @@
   flex-direction: column;
   margin:auto;
   align-items: center;
+  padding: 15px;
+}
+
+.contact-form{
+  font-family: $font-title;
+  width: 100%;
+
+  input{
+    font-family: $font-title;
+  }
 }

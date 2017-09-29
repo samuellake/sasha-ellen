@@ -3,6 +3,29 @@
 .footer-banner {
   background-color: $color-main;
   width: 100%;
-  height: 10px;
+  height: 30px;
   border-top: 1px white solid;
+}
+
+.footer-social {
+  display:flex;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    font-family: $font-heading;
+    color: $color-main;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding-top: 10px;
+
+    &:before{
+      background: url('/images/twitter.svg') no-repeat;
+      width: 30px;
+      height: 30px;
+      content: '';
+      display: inline-block;
+    }
+  }
 }
